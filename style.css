@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/poppins-medium.woff2') format('woff2'),
+        url('fonts/poppins-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/poppins-regular.woff2') format('woff2'),
+        url('fonts/poppins-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/poppins-bold.woff2') format('woff2'),
+        url('fonts/poppins-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/poppins-semibold.woff2') format('woff2'),
+        url('fonts/poppins-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: 'poppins';
+}
+
+.container {
+    padding-left: 77px;
+    padding-right: 77px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+.header-container {
+    padding-top: 100px;
+}
+
+.header-group {
+    display: flex;
+}
+
+
+.logotype {
+    height: 22px;
+}
+
+.header-nav-list {
+    display: flex;
+    padding-left: 143px;
+    margin-top: 5px;
+}
+
+.header-nav-list-element:not(:first-child) {
+    margin-left: 90px;
+}
+
+.header-nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header-button {
+    margin-top: -6px;
+    margin-left: 65px;
+    height: 47px;
+    background-color: white;
+    border: 2px solid #89DB7B;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 150px;
+}
